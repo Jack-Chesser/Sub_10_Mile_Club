@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fantasy Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .chart-container {
+      width: 80%;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 80%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background: #3498db;
+      color: white;
+      cursor: pointer;
+    }
+    .up {
+      color: green;
+      font-weight: bold;
+    }
+    .down {
+      color: red;
+      font-weight: bold;
+    }
+    .same {
+      color: gray;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Fantasy League Dashboard</h1>
+
+  <div class="chart-container">
+    <h2>Points For / Points Against</h2>
+    <canvas id="pointsForChart"></canvas>
+  </div>
+
+  <h2 style="text-align:center;">Weekly Power Rankings</h2>
+  <table id="standingsTable">
+    <thead>
+      <tr>
+        <th>Team</th>
+        <th>Movement</th>
+        <th>Wins</th>
+        <th>Losses</th>
+        <th>Points For</th>
+        <th>Points Against</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    Promise.all([
+      fetch("fantasy_data.json").then(r => r.json()),
+      fetch("fantasy_data_prev.json").then(r => r.json())
+    ])
+    .then(([current, previous]) => {
+
+      // Sort current week
+      const sortedCurrent = current.teams.sort((a, b) => {
+        if (b.wins !== a.wins) return b.wins - a.wins;
+        return b.points_for - a.points_for;
+      });
+
+      // Sort previous week
+      const sortedPrev = previous.teams.sort((a, b) => {
+        if (b.wins !== a.wins) return b.wins - a.wins;
+        return b.points_for - a.points_for;
+      });
+
+      // Rank labels
+      const rankLabels = sortedCurrent.map((t, i) => {
+        const rank = i + 1;
+        if (rank === 1) return "1st";
+        if (rank === 2) return "2nd";
+        if (rank === 3) return "3rd";
+        return rank + "th";
+      });
+
+      // Record labels
+      const recordLabels = sortedCurrent.map(t => `${t.wins}-${t.losses}`);
+
+      // Combined label: rank + name + record
+      const names = sortedCurrent.map((t, i) => `${rankLabels[i]} - ${t.name} (${recordLabels[i]})`);
+
+      const pointsFor = sortedCurrent.map(t => Number(t.points_for.toFixed(2)));
+      const pointsAgainst = sortedCurrent.map(t => Number(t.points_against.toFixed(2)));
+
+      // Combined PF/PA Chart
+      new Chart(document.getElementById("pointsForChart"), {
+        type: "bar",
+        data: {
+          labels: names,
+          datasets: [
+            {
+              label: "Points For",
+              data: pointsFor,
+              backgroundColor: "rgba(46, 204, 113, 0.8)",
+              barThickness: 12
+            },
+            {
+              label: "Points Against",
+              data: pointsAgainst,
+              backgroundColor: "rgba(231, 76, 60, 0.8)",
+              barThickness: 12
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          scales: {
+            x: { stacked: false },
+            y: { beginAtZero: true }
+          }
+        }
+      });
+
+      // Build previous week rank map
+      const prevRanks = {};
+      sortedPrev.forEach((team, index) => {
+        prevRanks[team.name] = index + 1;
+      });
+
+      // Standings Table
+      const tbody = document.querySelector("#standingsTable tbody");
+      sortedCurrent.forEach((team, i) => {
+        const currentRank = i + 1;
+        const lastRank = prevRanks[team.name] || currentRank;
+
+        const movement = lastRank - currentRank;
+
+        let movementDisplay = "";
+        if (movement > 0) {
+          movementDisplay = `<span class="up">↑ ${movement}</span>`;
+        } else if (movement < 0) {
+          movementDisplay = `<span class="down">↓ ${Math.abs(movement)}</span>`;
+        } else {
+          movementDisplay = `<span class="same">→ 0</span>`;
+        }
+
+        const row = `
+          <tr>
+            <td>${rankLabels[i]} - ${team.name} (${recordLabels[i]})</td>
+            <td>${movementDisplay}</td>
+            <td>${team.wins}</td>
+            <td>${team.losses}</td>
+            <td>${team.points_for.toFixed(2)}</td>
+            <td>${team.points_against.toFixed(2)}</td>
+          </tr>
+        `;
+        tbody.innerHTML += row;
+      });
+    });
+  </script>
+
+</body>
+</html>

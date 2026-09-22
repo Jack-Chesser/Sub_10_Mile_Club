@@ -1,0 +1,95 @@
+/* ============================
+   GLOBAL RESPONSIVE SETTINGS
+   ============================ */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make all containers scale nicely */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+/* Make tables scroll on small screens */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+}
+
+/* Make charts scale */
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* ============================
+   MOBILE (phones)
+   ============================ */
+@media (max-width: 600px) {
+
+  h1, h2, h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .team-card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .chart-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .movement-arrow {
+    font-size: 1.4rem;
+  }
+}
+
+/* ============================
+   TABLETS (iPads)
+   ============================ */
+@media (max-width: 900px) {
+
+  .flex-row {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .team-card {
+    width: 100%;
+  }
+}
+
+/* ============================
+   LARGE SCREENS (desktops)
+   ============================ */
+@media (min-width: 1200px) {
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .team-card {
+    flex: 1;
+  }
+}

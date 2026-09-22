@@ -1,0 +1,1395 @@
+{
+    "teams": [
+        {
+            "name": "Amon Ra on Dem Boyz",
+            "owners": [
+                {
+                    "displayName": "tommycubs9",
+                    "firstName": "Tommy",
+                    "id": "{35525347-EEEF-45DE-A229-BF3DA3041985}",
+                    "lastName": "O'brien",
+                    "notificationSettings": [
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "a2ff008b-fa5b-3158-989f-a7da82f59c14",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "0aad4aaa-2f8e-3755-8359-9d34c83e4f37",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "6fa1c3b2-3060-3037-b6e2-03d7edaac37b",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "e469113d-b0e0-3933-8d13-0926a18c6b68",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "26170ef9-fe27-38cb-9823-39bb4ba9d125",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "e22e00d5-751c-3b37-bd56-e6455ddf5ce4",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "bfacc511-91f6-3b69-b746-344af064163c",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "affc49e5-0f2a-3ebe-8bdf-d4f3e7b842c5",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "d8a1db98-47b7-37c2-b604-e2d8db8a3adc",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "723f7b0e-d86b-3cc0-8c2d-548bb5201262",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "1d290e92-8a31-3559-a1b0-c5f70fb5be5f",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "7b5ef1fc-aae4-3b75-a0e7-49d5d9cd4686",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "e85016c3-3329-3653-aa0b-7b331524a106",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "57e1293f-6448-357b-98f0-7cffdd1b64f9",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 1,
+                            "id": "b2c0f182-9094-3e19-a015-5139f190c08e",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 1,
+            "losses": 0,
+            "points_for": 119.74,
+            "points_against": 91.32
+        },
+        {
+            "name": "Turvey's Tan Team",
+            "owners": [
+                {
+                    "displayName": "espn60248176",
+                    "firstName": "Will",
+                    "id": "{97B93B1F-F01C-445F-AC9F-4CA71D07C6F8}",
+                    "lastName": "Turvey",
+                    "notificationSettings": [
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "3911e03a-e37f-37d0-899e-8282090dd831",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "fa3fcf24-0cbd-3369-89e5-5962c9fa1634",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "02efe48c-e125-3006-b1b4-202242c09a14",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "934c7a43-113a-324e-840f-57926993a802",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "6ee4a33e-0d5a-33c1-b29d-932b43b10ac2",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "6104aa94-fca9-36d6-92d4-03dc79afb770",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "c4ef431b-a416-3427-b924-5c30edf8900e",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "e8ddf2a2-73d2-3cb0-8b6f-af9ffb304662",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "d5522f1f-2e2b-37ad-b5e1-c91fe7423e08",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "97a00a05-3ba9-3803-aa79-94867a897911",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "e5cb2e65-c710-3c01-a87e-903544dd0603",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "a423f410-4b0c-3059-86f3-e7e87bf2b5ad",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "7fb8dd70-caa6-3ebd-8e05-7e06508c286d",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "d4ce0f8a-cfe1-3c1f-b179-23698635b31c",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 2,
+                            "id": "bf96970f-24fd-319c-b7c7-98c6c77642f7",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 1,
+            "losses": 1,
+            "points_for": 212.34,
+            "points_against": 207.3
+        },
+        {
+            "name": "Qui-Gon Jinn",
+            "owners": [
+                {
+                    "displayName": "ESPNfan8638107520",
+                    "firstName": "Owen",
+                    "id": "{EBC461A1-9F53-45A8-9C97-18969928E6E9}",
+                    "lastName": "Morgan",
+                    "notificationSettings": [
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "80c335fb-a812-3852-b9ae-e051b5fcc866",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "3a3cd058-be07-3e4c-83ad-4fb17cb6c93c",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "8e2c83b5-de1c-3775-87ef-bb60848421d5",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "ab3e3e83-b8d7-33a1-9e13-e44c222559fa",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "b411f595-149e-32be-8836-cdd344b96626",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "19b759b9-bf02-3382-90d4-c67c6fe7f21e",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "e1bd58c9-ac6b-3037-97d7-7f61955b162b",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "ca086207-f2bb-38bc-8a67-62cf37e5e31f",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "3f812f9c-dbb4-3580-b9bb-1a8ae4837ed4",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "f73fa080-d6f7-3cf7-b2de-14284ead1b26",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "c9a9cd3f-8a2f-3e15-97c8-6d711695c39c",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "5db9e51d-a8a3-3fdf-bbb5-42a79ad981f1",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "2d7ee96a-5e92-3f37-84dc-fd80f156895b",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "c8b0fb03-2b65-3526-8c77-bc908c833ebb",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 3,
+                            "id": "ec0a2eec-880b-32f1-8842-c56b8e647394",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 0,
+            "losses": 2,
+            "points_for": 165.24,
+            "points_against": 256.64
+        },
+        {
+            "name": "Jesse's Finest Team",
+            "owners": [
+                {
+                    "displayName": "ESPNFAN2858076151",
+                    "firstName": "Jesse",
+                    "id": "{4280D3D9-37FD-4484-B7F5-7640FFB6C55F}",
+                    "lastName": "Sloan",
+                    "notificationSettings": [
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "23e12fbb-b460-3da3-bd06-740b2cc486b9",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "d8cfd6d3-31f3-3652-92b0-5b87bd93d1d7",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "baef0153-3428-39a0-9161-c358fe063b65",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "e8560afd-d77c-3f63-8aec-a03ba7110043",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "d730d973-33e4-33ca-818f-9d9d3a8abd2b",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "f96aac9f-9a70-3491-bf3a-fb1f67357655",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "8f73ff29-b42e-36c2-8de3-c3d30ac1ed7c",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "6e230abf-5c5a-381f-a6af-62684e0948a0",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "214567b6-58ac-340f-b9cb-6b6cc16c5896",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "9314a5ba-d79f-3fdb-ab1f-581b15e2e716",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "23abeac2-f643-3f22-9ab3-a8c0f726bf72",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "497a01d8-e340-32c7-b25d-c1590cc0f59e",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "d121abb2-b3f8-3325-acfc-78d2e83ae534",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "042726e0-dea2-352d-aa89-87e5c4d67825",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 4,
+                            "id": "d2dbc921-6ece-3645-9451-32f683278b36",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 2,
+            "losses": 0,
+            "points_for": 277.06,
+            "points_against": 207.72
+        },
+        {
+            "name": "Chris Cherry",
+            "owners": [
+                {
+                    "displayName": "espn27739942",
+                    "firstName": "Christopher",
+                    "id": "{301FB4B5-04CC-48FC-AA22-A6B2A93F0EFD}",
+                    "lastName": "Cherry",
+                    "notificationSettings": [
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "620773c8-1669-30cd-b194-7dd255b85c3a",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "bf203bbc-9bff-394e-8408-7cf9416f933d",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "178e99f4-de9f-3d0e-9199-e267dedc0558",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "33f75473-b631-381b-8b7f-117a6efb43c9",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "ab2d4fa1-5dd5-300a-91c7-c3847661c086",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "e7d0b55a-fac2-30c4-8650-56028bd1ad44",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "f2fe07d4-7e88-31b6-8314-6ff2013b0a72",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "3e2d483c-7c6f-3218-a5ac-0d4adecf831b",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "190c485e-8ded-3955-b1ff-8f925d199c1f",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "b6b81c03-7fbe-3128-afed-412de3c8e6ff",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "6a91c451-3c5d-3317-836d-1c7b41ca78e1",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "52692176-7abc-394f-8cea-88d31922c1f6",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "6a9b5bad-e91d-34f6-93ee-7e9e52c37b96",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "2707ac43-c63e-30b8-b3c1-82847133935c",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 5,
+                            "id": "92052ef6-fc76-3ab5-8aba-7730c82b5692",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 1,
+            "losses": 1,
+            "points_for": 228.28,
+            "points_against": 230.2
+        },
+        {
+            "name": "Garrett's Great Team",
+            "owners": [
+                {
+                    "displayName": "espnfan3029775237",
+                    "firstName": "Garrett",
+                    "id": "{28A76E2E-7B4B-4676-9F07-0060AEB6A60E}",
+                    "lastName": "W",
+                    "notificationSettings": [
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "35ffe8cd-a00a-3297-aa54-f6ebdbdb8d1e",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "9b8a8c4c-b2b5-3c93-96fa-eecf02098c1b",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "bee614f6-8b22-361b-af2e-d0d14cb2305e",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "5293b3fc-9402-3a1c-b2fc-fa032842f04e",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "33e8de51-a1e1-36e1-89f9-e1e7a8b0d31e",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "a57236ca-984b-32ab-85bb-9dfc4a0108c3",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "3546843b-cd37-322e-bda6-6bf8d6e8ef6a",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "e1a9d6f9-87d5-3fe7-ae3e-0f91bf832817",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "0e0f93b5-67a8-32b8-ad7b-23059d70df4e",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "a1b7d07e-6f37-3648-90b5-7e7366022100",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "f78f9345-ce31-336b-b2ba-c4a9a4953217",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "ba1d2203-a651-300e-9371-c67bba2a1317",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "9f62d83a-2da1-3d9e-a46d-a2aefbad35fe",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "21cee29f-c03b-3b7c-ae1b-2b0129363103",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 6,
+                            "id": "413d1571-6024-3a4c-8fd7-c8a0a0b21d7f",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 1,
+            "losses": 1,
+            "points_for": 178.96,
+            "points_against": 211.76
+        },
+        {
+            "name": "A Tu Tu Tu Tu Atwell",
+            "owners": [
+                {
+                    "displayName": "Brenton Good",
+                    "firstName": "B",
+                    "id": "{0D05F692-D30D-4453-A743-8EA6726C2762}",
+                    "lastName": "Good",
+                    "notificationSettings": [
+                        {
+                            "enabled": false,
+                            "forId": 7,
+                            "id": "7b842dc7-690c-367e-901c-c10e487f9cd0",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "b61aa152-7e0b-3e3d-8c6c-276de62b5f18",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "f7b8f644-e466-3b37-ae5d-b874a8aabca2",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "0ec12315-3e2e-31b2-b6f3-e3c7497c5a26",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "a3d3a6a1-5a8c-3166-a60b-8e6b1033ca18",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "d2449fbb-a35b-3526-9b5d-77f168b2dd69",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "ff908bf4-118f-379e-90f9-6b43f105bccd",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "0b6f680a-8728-3062-9d18-124698e993b8",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "f2915c19-94d3-3fe7-85bc-3cb810c1c60e",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "5011d5db-52c9-35b3-bcd4-18464b04dbdb",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "58f653be-4e7a-3391-aa8d-418a535d08ec",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "822f1178-c562-3732-a9dc-efcd36c940dc",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "7d86f690-f912-3684-80f7-c99177c3b5be",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "42d7abac-4465-3949-8c03-ad3e1fa5a7b8",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 7,
+                            "id": "6ee0fe5d-bd7a-3b7e-8d66-8a2f5bc2bdb9",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 0,
+            "losses": 1,
+            "points_for": 108.26,
+            "points_against": 117.86
+        },
+        {
+            "name": "Jabba the munt",
+            "owners": [
+                {
+                    "displayName": "jchess",
+                    "firstName": "Jack",
+                    "id": "{DD283D64-C631-4EB2-83BA-6FA62B4B7391}",
+                    "lastName": "Chesser",
+                    "notificationSettings": [
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "57fc7a18-2c3f-3c83-8505-5642bcf6c0cc",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "65d47ecf-c7dc-375e-8f87-0cdadc92670f",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "11fdae46-e82c-3663-b4ed-faa71f99b846",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "9fd84634-ae66-33d1-9778-8e346e6d7c0f",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "0371fd4a-c055-3ab6-ad78-40808614334c",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "a44b1079-70d0-34f6-a703-ed56a5189e40",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "09ac2871-294b-3981-bc52-e78ac6275155",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "0bc4557d-f1b2-3046-be85-33b0bfb615db",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "14030f43-1bd5-3a51-a62f-cd88ee6cac09",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "40fd3bb0-fa52-3d28-9137-14f8aacda4e6",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "7312e183-9cc1-329a-91af-ef0916f60e9c",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "63342758-986c-35dc-ae02-aab8ad9eeedf",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "38812279-f709-3f6e-9e54-fa4b3f1fdd69",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "d244d04e-c680-37b9-bede-b8c29ba23757",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 8,
+                            "id": "0e0eefd6-52f5-3d84-b6bf-aa508b8c7375",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 1,
+            "losses": 1,
+            "points_for": 210.12,
+            "points_against": 223.18
+        },
+        {
+            "name": "Brody's Best Team",
+            "owners": [
+                {
+                    "displayName": "ESPNFAN6516681824",
+                    "firstName": "Brody",
+                    "id": "{0561BC59-9E8B-4477-9376-7D75A565A505}",
+                    "lastName": "Harker",
+                    "notificationSettings": [
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "8cf0de63-47c6-3429-bd20-74db84a25900",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "a339969b-175f-3d85-8c4f-b41bdaa044a0",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "d3aa937c-6a06-3abf-b976-0db3e98cf06f",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "fe57a622-645c-332e-b3fb-0b293ea07a09",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "d9549f73-cf65-3b6f-95bb-fe57a4533948",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "737c6f46-5a1e-3a2a-ba05-52e0cb4daab4",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "46fe884c-6fd6-3363-82ee-fcb84e3e107f",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "f15dd397-6ef4-3b61-80fd-f052083c94ad",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "de01932e-31ce-36da-964c-fb2dda20ca2e",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "cc6043da-62ba-32fe-8b6f-1124fa5d516e",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "89abc821-468f-3aa6-95bc-aa8c321aea8b",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "67edf658-b3a8-35aa-ac44-d1e5433b744c",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "dd250a36-ff50-3da1-9b28-61b202819213",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "dd3e4706-1c24-35e3-a4f6-d9b297a8902b",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 10,
+                            "id": "ff2dad45-78e8-35c2-ab39-830fa1c4a153",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 2,
+            "losses": 0,
+            "points_for": 235.7,
+            "points_against": 177.72
+        },
+        {
+            "name": "David Schafer's Team",
+            "owners": [
+                {
+                    "displayName": "ESPNfan4182369125",
+                    "firstName": "David",
+                    "id": "{F6791A24-9F5B-45A0-95BB-FA3AFCBB1793}",
+                    "lastName": "Schafer",
+                    "notificationSettings": [
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "c5c3158a-3fa4-3543-b86e-22295d3ac1a2",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "4eb5d514-2e66-3cf9-8df6-81142ce4ee77",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "1b4b8ec5-f021-3f4f-9c37-80937084d4ed",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "69f95ac6-60f2-3ce9-b450-04ad73324778",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "2a576f3d-05a2-3136-9750-7c3c8545f4d1",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "e2195996-c528-3f74-be5c-0c2656f5a472",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "f42a8502-342a-3723-a397-c4da5e0145cd",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "c7225385-7102-378a-9663-b40ff58c6ae1",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "a70b2506-d90a-3e33-858d-a8516507cf4e",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "93453044-30cd-3d52-aacf-e3ecaf4216a0",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "5dda72fd-7ab8-3f50-8d18-7d1b8cae3273",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "880fd2c2-0d14-31d9-b66a-7c42ee70c4b1",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "f858f087-0576-3793-975a-a288037c86ef",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "3bd39c6c-2715-3269-9175-6353e8b808f5",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 11,
+                            "id": "cdaf27d6-ce43-33e9-842b-b306a58b5bdd",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 1,
+            "losses": 1,
+            "points_for": 232.56,
+            "points_against": 198.76
+        },
+        {
+            "name": "Tyler's Talented Team",
+            "owners": [
+                {
+                    "displayName": "ESPNfan0396564399",
+                    "firstName": "Tyler",
+                    "id": "{DBEB0CB8-48C1-45F3-AEC6-68FFEB09B799}",
+                    "lastName": "Corpin",
+                    "notificationSettings": [
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "de0549da-6305-3fdd-bc15-b510781a5add",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "0b9a3bf3-80df-396a-ae06-c23556f5779a",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "7d05f654-8778-3394-8cd3-6460aee65d72",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "1e0865f4-4929-34d1-b995-5cc302d46074",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "0b568985-de39-34d4-ba57-996508bb3893",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "75ba7f3f-bc49-3c01-b43c-a8e656cb9b43",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "1df01d5c-b761-3f66-be09-5fa3d8bc4a4e",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "c42f4d5f-3a3a-32af-8915-9599632383c3",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "c5e516ed-e1ea-3fda-a106-88bc2148c521",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "39a195a7-89be-30d1-be2e-00ee0f7c68a7",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "ebf31352-cf33-3c21-8088-c37a29166308",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "49e0b05c-a99c-36bb-a078-2479f5309196",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "047bfd33-669e-3588-a098-c76f5b178817",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "1ae88d91-b943-3829-ad73-2637e420ea80",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 12,
+                            "id": "41699184-8cdc-3d60-b12f-d947373fdebc",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 0,
+            "losses": 2,
+            "points_for": 205.98000000000002,
+            "points_against": 255.96
+        },
+        {
+            "name": "Lactic Assets",
+            "owners": [
+                {
+                    "displayName": "cbsutton16",
+                    "firstName": "Chad",
+                    "id": "{130A44D8-243A-489F-8A44-D8243A789F9B}",
+                    "lastName": "Sutton",
+                    "notificationSettings": [
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "eaac8fb7-69cb-382d-bc3c-6b01a1d8e818",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "3174cda5-4a22-31d1-b533-5dd333927f57",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "48f2cf0b-3903-39d0-b7e4-40edada4df3b",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "e0e890b3-4808-3454-b43e-240cb67763a2",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "eb4ec22a-2932-3e51-8cdd-2fe5d0f14906",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "ce0937c2-37dd-364e-a16c-011d9c851404",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "0d6ea504-ebd2-3ac2-a439-bc39a6bc80d8",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "7af1f9b9-8eb8-36be-9a60-8da5b881afa1",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "397433d3-7b6e-303c-941c-7936776bb4c1",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "84180672-0d48-34a3-b3a6-9f97f4b04b0c",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "a348dce0-b9fb-3d5f-a136-7264538fbb1f",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "67b327fa-25a5-3538-a585-9ee6e477b213",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "baf1adb7-a851-3bd6-b2a4-84c6ac80e28b",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "8b344974-11d1-3e79-af5b-94340b75eb41",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 13,
+                            "id": "9961754d-5f8d-327c-922f-7b86028a0f4d",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 1,
+            "losses": 1,
+            "points_for": 219.58,
+            "points_against": 241.36
+        },
+        {
+            "name": "Alex\u2019s Amazing Team",
+            "owners": [
+                {
+                    "displayName": "ESPNFAN3428697317",
+                    "firstName": "Alex",
+                    "id": "{BB0CC1F4-4C4D-4B95-9363-54C2EC234BDF}",
+                    "lastName": "Davis",
+                    "notificationSettings": [
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "31e5845e-09e5-3d99-853c-488c20630964",
+                            "type": "TEAM_LIVE_ACTIVITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "66176183-e59d-3ddc-804e-9084ea3eb693",
+                            "type": "TEAM_PLAYER_INJURY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "af134684-48c3-39e0-a31a-5f9eb5a14c8c",
+                            "type": "TEAM_PLAYER_AVAILABILITY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "0e544dcf-89db-3d38-863c-b27e874b1f78",
+                            "type": "TEAM_PLAYER_NEWS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "1c046408-6dc8-3f38-a6c3-e32e7621f657",
+                            "type": "TEAM_PLAYER_STARTBENCH"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "7e9d125e-5718-3ab1-91b4-56ae2c4fbe37",
+                            "type": "TEAM_TRADE_OFFER"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "9f6f93eb-b7b9-33e9-b316-b08c82b94b56",
+                            "type": "DRAFT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "64f7ca9c-50a8-329b-bbef-8d9199560133",
+                            "type": "TEAM_MATCHUP_SCORE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "fbeb4f02-f223-3401-bd80-b1d262b70917",
+                            "type": "KEY_PLAY"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "63cda6e5-937a-32d6-877d-29f55bf4e3a6",
+                            "type": "ACHIEVEMENT"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "86858704-4fd3-3079-840a-f9b72ea9a692",
+                            "type": "REDZONE"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "fe18b814-84e1-39c4-95ab-fdea5d9fd826",
+                            "type": "ADD_DROP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "491df534-b6e9-3c21-82c4-d7615adb7392",
+                            "type": "WEEKLY_RECAP"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "3929e024-eb3b-3192-bbb8-4c1495f9e26e",
+                            "type": "WAIVERS"
+                        },
+                        {
+                            "enabled": true,
+                            "forId": 14,
+                            "id": "73992734-eaec-3193-a664-4a3d02013825",
+                            "type": "CELEBRATION_SHARE"
+                        }
+                    ]
+                }
+            ],
+            "wins": 1,
+            "losses": 1,
+            "points_for": 233.44,
+            "points_against": 207.48
+        }
+    ]
+}

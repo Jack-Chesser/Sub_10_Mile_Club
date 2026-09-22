@@ -1,0 +1,95 @@
+{
+  "teams": [
+    {
+      "name": "Amon Ra on Dem Boyz",
+      "wins": 1,
+      "losses": 0,
+      "points_for": 119.74,
+      "points_against": 91.32
+    },
+    {
+      "name": "Turvey's Tan Team",
+      "wins": 1,
+      "losses": 1,
+      "points_for": 212.34,
+      "points_against": 207.30
+    },
+    {
+      "name": "Qui-Gon Jinn",
+      "wins": 0,
+      "losses": 2,
+      "points_for": 165.24,
+      "points_against": 256.64
+    },
+    {
+      "name": "Jesse's Finest Team",
+      "wins": 2,
+      "losses": 0,
+      "points_for": 277.06,
+      "points_against": 207.72
+    },
+    {
+      "name": "Chris Cherry",
+      "wins": 1,
+      "losses": 1,
+      "points_for": 228.28,
+      "points_against": 230.20
+    },
+    {
+      "name": "Garrett's Great Team",
+      "wins": 1,
+      "losses": 1,
+      "points_for": 178.96,
+      "points_against": 211.76
+    },
+    {
+      "name": "A Tu Tu Tu Tu Atwell",
+      "wins": 0,
+      "losses": 1,
+      "points_for": 108.26,
+      "points_against": 117.86
+    },
+    {
+      "name": "Jabba the munt",
+      "wins": 1,
+      "losses": 1,
+      "points_for": 210.12,
+      "points_against": 223.18
+    },
+    {
+      "name": "Brody's Best Team",
+      "wins": 2,
+      "losses": 0,
+      "points_for": 235.70,
+      "points_against": 177.72
+    },
+    {
+      "name": "David Schafer's Team",
+      "wins": 1,
+      "losses": 1,
+      "points_for": 232.56,
+      "points_against": 198.76
+    },
+    {
+      "name": "Tyler's Talented Team",
+      "wins": 0,
+      "losses": 2,
+      "points_for": 205.98,
+      "points_against": 255.96
+    },
+    {
+      "name": "Lactic Assets",
+      "wins": 1,
+      "losses": 1,
+      "points_for": 219.58,
+      "points_against": 241.36
+    },
+    {
+      "name": "Alex’s Amazing Team",
+      "wins": 1,
+      "losses": 1,
+      "points_for": 233.44,
+      "points_against": 207.48
+    }
+  ]
+}
